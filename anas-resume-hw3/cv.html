@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas's Resume</title>
+    <link rel="icon" href="assets/images/cv.png" type="image/png">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="assets/script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-name">Anas</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+  <!-- Header -->
+<header class="hero">
+  <h1>Anas's Resume</h1>
+  <div class="btn-container">
+      <button class="btn btn-download" onclick="window.location.href='assets/resume/Anas-Alhamdan-Resume.pdf'">
+          <img src="assets/images/download.svg" alt="Download"> Download CV
+      </button>
+  </div>
+</header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Education Section -->
+        <section class="card large-card">
+            <h2>Education</h2>
+            <div class="mini-card large-mini-card">
+                <h3>2021 - Present</h3>
+                <p><strong>Bachelor in Computer Science</strong></p>
+                <p>King Saud University</p>
+                <p>Expected Graduation: Sep 2025</p>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="card">
+            <h2>Technologies</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <img src="assets/images/python_icon.png" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="tech-card">
+                    <img src="assets/images/JAVA_PIC.png" alt="Java">
+                    <p>Java</p>
+                </div>
+                <div class="tech-card">
+                    <img src="assets/images/numpy_pic.png" alt="NumPy">
+                    <p>NumPy</p>
+                </div>
+                <div class="tech-card">
+                    <img src="assets/images/sql_pic.png" alt="SQL">
+                    <p>SQL</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="card">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="assets/images/10608754.png" width="40px" alt="Product Management">
+                    <h3>Product Management</h3>
+                    <p>Roadmap Development, Market Research, Agile Strategy</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/microchip-ai.png" width="40px" alt="AI & NLP">
+                    <h3>AI & NLP</h3>
+                    <p>Word Embeddings, Semantic Analysis, Information Retrieval</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/data_logo.png" width="40px" alt="Data Analysis">
+                    <h3>Data Analysis</h3>
+                    <p>Pandas, NumPy, SQL</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/002-development.svg" width="40px" alt="Programming Languages">
+                    <h3>Programming</h3>
+                    <p>Python, Java, HTML, CSS, SQL, LaTeX</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/square-terminal.png" width="40px" alt="Tools">
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, Jupyter Notebooks, VS Code</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inspirational Quote Section -->
+        <section class="card">
+            <h2>Inspirational Quote</h2>
+            <blockquote class="quote">
+                <p id="quote-text">"Success is a lousy teacher. It seduces smart people into thinking they can't lose."</p>
+                <cite id="quote-author"></cite>
+            </blockquote>
+        </section>
+
+    </main>
+
+   
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anas. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Back to Top Button
+        document.getElementById("back-to-top").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+</body>
+</html>

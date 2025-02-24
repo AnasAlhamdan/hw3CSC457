@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Anas</title>
+    <link rel="icon" href="assets/images/cv.png" type="image/png">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-name">Anas</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <h2>Contact Me</h2>
+  
+      <div class="contact-container">
+          
+          <!-- Profile Card -->
+          <div class="profile-card">
+              <img src="assets/images/profpic.jpeg" alt="Profile Picture" class="profile-img">
+              <h2>Anas Al-Hamdan</h2>
+              
+              <div class="contact-info">
+                  <p><strong>Date of Birth:</strong> 2003/09/04</p>
+                  <p><strong>Phone:</strong> <a href="tel:+966532487724">+966 532487724</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:Anasalhamdan4b@gmail.com">Anasalhamdan4b@gmail.com</a></p>
+                  <p><strong>Location:</strong> Riyadh, Saudi Arabia</p>
+              </div>
+          </div>
+  
+          <!-- Contact Form Card -->
+          <div class="contact-form-card">
+              <h2>Send a Message</h2>
+              
+              <form action="mailto:Anasalhamdan4b@gmail.com" method="post" enctype="text/plain">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your Name" required>
+                  </div>
+  
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Your Email" required>
+                  </div>
+  
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                  </div>
+  
+                  <button type="submit" class="btn">Send Message</button>
+              </form>
+          </div>
+  
+      </div>
+  </main>
+  
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anas. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Back to Top Button
+        document.getElementById("back-to-top").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+</body>
+</html>

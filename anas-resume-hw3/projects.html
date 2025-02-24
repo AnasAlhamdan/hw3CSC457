@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Anas's Portfolio</title>
+    <link rel="icon" href="assets/images/cv.png" type="image/png">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-name">Anas</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>PORTFOLIO</h2>
+        
+        <section class="portfolio-container">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+                <img src="assets/images/UNI.png" alt="UNIBAG Project">
+                <div class="project-content">
+                    <h3>UNIBAG</h3>
+                    <p>AI-powered platform that streamlines study processes by organizing materials and generating practice questions.</p>
+                    <time>Nov 2024</time>
+                    <a href="https://unibag.app" target="_blank">View Project</a>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <img src="assets/images/TASK.png" alt="Task Manager Project">
+                <div class="project-content">
+                    <h3>TASK MANAGER</h3>
+                    <p>A task management platform similar to Trello, allowing users to track, assign, and manage tasks efficiently.</p>
+                    <time>Oct 2024</time>
+                    <a href="https://github.com/misharii/taskmanagementapp.git" target="_blank">View Project</a>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <img src="assets/images/police.jpg" alt="Police Case Management System">
+                <div class="project-content">
+                    <h3>Police Case Management</h3>
+                    <p>Developed a case management system for police stations to track and manage case information effectively.</p>
+                    <time>Sep 2023</time>
+                    <a href="https://github.com/misharii/CSC380-Police-Project.git" target="_blank">View Project</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anas. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Back to Top Button
+        document.getElementById("back-to-top").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+</body>
+</html>
