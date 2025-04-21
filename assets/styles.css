@@ -118,6 +118,11 @@ body {
     max-width: 900px;
 }
 
+.toggle-skills-btn {
+    margin: 10px auto;     
+  
+}
+
 .list {
     text-align: left;
     padding-left: 20px;
@@ -125,6 +130,13 @@ body {
 
 /* Skills Grid */
 .skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills-grid2 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -172,18 +184,15 @@ footer {
 
 /* CV Download Button */
 .btn-download {
-    background-color: #681ce4;
+    display: inline-block;
+    background-color: #007BFF;
     color: white;
+    padding: 10px 20px;
     font-size: 1rem;
-    font-weight: bold;
     border: none;
-    padding: 12px 20px;
     border-radius: 8px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
+    margin: 1rem auto;
     transition: background 0.3s ease-in-out;
 }
 
@@ -332,6 +341,24 @@ footer {
     text-align: center;
 }
 
+.btn-toggle {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 1rem auto;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-toggle:hover {
+    background-color: #0056b3;
+}
+
+
 .profile-img {
     width: 120px;
     height: 120px;
@@ -468,4 +495,8 @@ footer {
         width: 120px;
         height: 120px;
     }
+}
+.error {
+    margin-top: 5px;
+    display: block;
 }
